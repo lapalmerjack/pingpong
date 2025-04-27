@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ping-deployment.yaml
-  - backendconfig.yaml
+- ping-deployment.yaml
+- backendconfig.yaml
 images:
 - name: gcr.io/dwk-gke-450416/pingpong
   newName: gcr.io/dwk-gke-450416/pingpong
-
+  newTag: main-dd58fea9a4ff22e0cc31b4e8cc9d3a5e05490d8a
