@@ -7,4 +7,4 @@ resources:
 images:
 - name: gcr.io/dwk-gke-450416/pingpong
   newName: gcr.io/dwk-gke-450416/pingpong
-  newTag: main-a239c36f6b4bcb80d9c9a99fdfe951790abdad3b
+  newTag: main-0e7cf0b540c7335ed1ba65b2a913a6446b286b9d
